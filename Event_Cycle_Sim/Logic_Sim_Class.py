@@ -68,8 +68,11 @@ class Gate:
         self.inputB = wireInputB
         self.gateType = gateFunction.upper()
 
-    def getGateLevel(self):
+    def getLevel(self):
         return self.gateLevel
+
+    def getIsOutput(self):
+        return self.isOutput
 
     def setOutput(self, isOutput):
         self.isOutput = isOutput
