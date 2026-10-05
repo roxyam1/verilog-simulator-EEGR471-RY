@@ -1,5 +1,6 @@
 # verilog-simulator-EEGR471-RY
 Verilog Simulator
+REQUIRES PYVERILOG TO BE INSTALLED
 
 TO USE EVENT SIMULATOR:
 Run line below in command line
