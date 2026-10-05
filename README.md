@@ -1,5 +1,7 @@
 # verilog-simulator-EEGR471-RY
 Verilog Simulator
+
+
 REQUIRES PYVERILOG TO BE INSTALLED
 
 TO USE EVENT SIMULATOR:
