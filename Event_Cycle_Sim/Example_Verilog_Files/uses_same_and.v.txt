@@ -1,0 +1,12 @@
+module and_gate (
+    input wire a,
+    input wire b,
+    output wire y,
+    output wire z,
+    output wire x
+);
+    assign y = a & b; // AND operation
+    assign z = ~(a & b);
+    assign x = (a & b) ^ y;
+
+endmodule

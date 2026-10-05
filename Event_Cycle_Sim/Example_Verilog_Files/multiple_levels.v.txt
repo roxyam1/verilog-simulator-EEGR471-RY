@@ -1,0 +1,12 @@
+module new_gate (
+    input wire a,    // First input
+    input wire b,
+    output wire y,    // Second input
+    input wire c    // Output
+);
+
+    wire x;
+    assign x = a ^ b;
+    assign y = x & c; // AND operation
+
+endmodule
