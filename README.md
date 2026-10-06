@@ -46,5 +46,8 @@ The simulator does not implement procedural always blocks, sequential logic, clo
 Four-state X/Z simulation is not implemented; signal values are treated as single-bit 0/1 values.
 Icarus Verilog is not part of the Python simulation engine and is only an optional reference-verification tool.
 
+# Examples
+Vector outputs are under the Simulation_Examples folder for each verilog file and type of simulation.
+
 
 
